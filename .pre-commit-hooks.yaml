@@ -1,0 +1,6 @@
+- id: ktlint
+  name: ktlint
+  description: Runs ktlint
+  entry: ./scripts/ktlint.sh
+  language: script
+  files: \.kt(s)?$
